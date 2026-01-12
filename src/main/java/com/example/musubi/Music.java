@@ -3,8 +3,8 @@ package com.example.musubi;
 public class Music {
     private String title;
     private String artist;
-    private String youtubeId; // 유튜브 영상 고유 번호
-    private String sharedBy;  // 공유자 이름
+    private String youtubeId; 
+    private String sharedBy;  
 
     public Music(String title, String artist, String youtubeId, String sharedBy) {
         this.title = title;
@@ -13,7 +13,7 @@ public class Music {
         this.sharedBy = sharedBy;
     }
 
-    // 화면(HTML)에서 꺼내 쓸 수 있도록 Getter 추가
+    // ビュー(Thymeleaf)で使用するゲッター
     public String getTitle() { return title; }
     public String getArtist() { return artist; }
     public String getYoutubeId() { return youtubeId; }
