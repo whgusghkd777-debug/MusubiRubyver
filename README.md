@@ -1,7 +1,11 @@
 
 
 ## 🎧 MuSuBi Music Center - Ruby Experimental Ver.
-<img width="400" alt="MuSuBi Interface" src="https://github.com/user-attachments/assets/9ef0b1bb-4045-4af9-aa39-0bea248b35c9" />
+<img width="300" alt="MuSuBi Interface" src="https://github.com/user-attachments/assets/9ef0b1bb-4045-4af9-aa39-0bea248b35c9" />
+
+※これは技術実験・学習用のサブプロジェクトです。
+日本IT市場で人気の言語（Ruby, Java, Kotlin）を組み合わせられるか試してみました。
+本番では使用しません。メインのプロジェクトは別になります。
 
 Java Spring Boot と Ruby を融合させたハイブリッド音楽共有プラットフォーム 本プロジェクトは、メインプロジェクト MuSuBiMusic のビジネスロジックを Ruby (JRuby) に移植した技術検証用スピンオフ・プロジェクトです。
 
