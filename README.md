@@ -1,4 +1,4 @@
-<img width="50" height="50" alt="image" src="https://github.com/user-attachments/assets/9ef0b1bb-4045-4af9-aa39-0bea248b35c9" />
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9ef0b1bb-4045-4af9-aa39-0bea248b35c9" />
 
 
 MuSuBi Music Center
