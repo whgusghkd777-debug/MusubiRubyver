@@ -1,8 +1,8 @@
 <img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9ef0b1bb-4045-4af9-aa39-0bea248b35c9" />
 
 
-MuSuBi Music Center
-Java Spring Boot と Ruby を融合させたハイブリッド音楽共有プラットフォーム
+## MuSuBi Music Center
+## Java Spring Boot と Ruby を融合させたハイブリッド音楽共有プラットフォーム
 
 📌 プロジェクトのポイント
 Java × Ruby の連携: JRuby を活用し、Java の堅牢性と Ruby の柔軟性を組み合わせた設計になっています。
