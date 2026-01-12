@@ -16,8 +16,7 @@ Java Spring Boot と Ruby を融合させたハイブリッド音楽共有プラ
 1. Java から Ruby メソッドを呼び出す (Bridge)
 Java のコントローラー内で ScriptingContainer を利用し、Ruby 側に定義された関数を直接実行します。
 
-Java
-
+```java
 // MusicController.java
 @PostMapping("/add")
 public String addMusic(@RequestParam String title, 
@@ -30,10 +29,12 @@ public String addMusic(@RequestParam String title,
     
     return "redirect:/";
 }
+```
+
 2. Ruby から Java クラスをインスタンス化する (Integration)
 Ruby スクリプト内で Java のクラスパスを指定し、直接オブジェクトを生成・操作します。
 
-Ruby
+```Ruby
 
 # follow_logic.rb
 
@@ -47,6 +48,8 @@ def add_music_to_list(title, artist, yid)
   
   puts "Ruby: '#{title}' をリストに追加しました！"
 end
+```
+
 📖 このプロジェクトを通じて得た知見 (Learning)
 ハイブリッド環境の構築: Java の型安全な設計と、Ruby の直感的なロジック記述を一つのプロセス内で共存させる手法を学びました。
 
