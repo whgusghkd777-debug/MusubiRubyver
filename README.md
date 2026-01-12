@@ -1,8 +1,8 @@
-<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/9ef0b1bb-4045-4af9-aa39-0bea248b35c9" />
 
 
+## 🎧 MuSuBi Music Center - Ruby Experimental Ver.
+<img width="400" alt="MuSuBi Interface" src="https://github.com/user-attachments/assets/9ef0b1bb-4045-4af9-aa39-0bea248b35c9" />
 
-🎧 MuSuBi Music Center - Ruby Experimental Ver.
 Java Spring Boot と Ruby を融合させたハイブリッド音楽共有プラットフォーム 本プロジェクトは、メインプロジェクト MuSuBiMusic のビジネスロジックを Ruby (JRuby) に移植した技術検証用スピンオフ・プロジェクトです。
 
 📌 プロジェクトの意図と背景
@@ -16,7 +16,8 @@ Java Spring Boot と Ruby を融合させたハイブリッド音楽共有プラ
 1. Java から Ruby メソッドを呼び出す (Bridge)
 Java のコントローラー内で ScriptingContainer を利用し、Ruby 側に定義された関数を直接実行します。
 
-```java
+Java
+
 // MusicController.java
 @PostMapping("/add")
 public String addMusic(@RequestParam String title, 
@@ -29,12 +30,10 @@ public String addMusic(@RequestParam String title,
     
     return "redirect:/";
 }
-```
-
 2. Ruby から Java クラスをインスタンス化する (Integration)
 Ruby スクリプト内で Java のクラスパスを指定し、直接オブジェクトを生成・操作します。
 
-```Ruby
+Ruby
 
 # follow_logic.rb
 
@@ -48,8 +47,6 @@ def add_music_to_list(title, artist, yid)
   
   puts "Ruby: '#{title}' をリストに追加しました！"
 end
-```
-
 📖 このプロジェクトを通じて得た知見 (Learning)
 ハイブリッド環境の構築: Java の型安全な設計と、Ruby の直感的なロジック記述を一つのプロセス内で共存させる手法を学びました。
 
@@ -60,9 +57,9 @@ end
 🚀 主要機能 (Features)
 リアルタイムチャート: 現在共有されている曲のリストを表示・管理します。
 
-ミュージックシェア: YouTube ID を利用し、Ruby 側のロジックを通じて即座に楽曲をチャートに追加します。
+ミュージックシェア: YouTube ID を利用し、Ruby 側のロジックを通じて即座に楽曲をチャートに追加します.
 
-インライン再生: YouTube IFrame 連携により、ページ遷移なしでその場での視聴が可能です。
+インライン再生: YouTube IFrame 連携により、ページ遷移なしでその場での視聴が可能です.
 
 🔗 関連プロジェクト
 メインプロジェクト (Java Full Stack): https://github.com/whgusghkd777-debug/MuSuBiMusic
