@@ -33,4 +33,4 @@ JRuby による言語間連携: ScriptingContainer を活用し、Java のコン
 インライン再生: 安定した YouTube IFrame 連携により、ページ遷移なしで音楽を視聴可能です。
 
 🔗 関連プロジェクト
-メインプロジェクト (Java Full Stack): MuSuBiMusic
+メインプロジェクト (Java Full Stack): https://github.com/whgusghkd777-debug/MuSuBiMusic
