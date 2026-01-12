@@ -1,15 +1,18 @@
 // FollowData.java
+ // フォロー情報を保存するデータクラスです。
+// 【将来的な拡張用】 アーティストフォロー機能を実装する際に使用するデータ構造です。
+
 package com.example.musubi;
 public class FollowData {
-    private String follower; // 팔로우를 누른 사람
-    private String artist;   // 팔로우 당한 가수
-
+    private String follower; 
+    private String artist;   
+// [コンストラクタ] データを新しく作成する時に使います
     public FollowData(String follower, String artist) {
         this.follower = follower;
         this.artist = artist;
     }
 
-    // 데이터를 꺼내볼 수 있게 만드는 함수들 (Getter)
+// [ゲッター] 保存されたデータを取り出すための関数です
     public String getFollower() { return follower; }
     public String getArtist() { return artist; }
 }
