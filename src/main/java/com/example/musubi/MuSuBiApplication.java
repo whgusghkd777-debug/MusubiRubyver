@@ -1,4 +1,4 @@
-package com.example.musubi; // 이 줄이 반드시 맨 위에 있어야 함!
+package com.example.musubi; 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
