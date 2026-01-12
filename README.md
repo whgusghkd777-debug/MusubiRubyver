@@ -65,4 +65,4 @@ end
 インライン再生: YouTube IFrame 連携により、ページ遷移なしでその場での視聴が可能です。
 
 🔗 関連プロジェクト
-メインプロジェクト (Java Full Stack): MuSuBiMusic
+メインプロジェクト (Java Full Stack): https://github.com/whgusghkd777-debug/MuSuBiMusic
